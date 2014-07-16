@@ -42,6 +42,9 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'unicorn', group: :production
+gem 'thin', group: :development
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
